@@ -1,111 +1,112 @@
 body {
-    margin: 0;
-    padding: 0;
-    height: 150vh;
-    font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 150vh;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 nav {
-    background-color: rgb(65, 65, 65);
-    width: 100%;
-    height: 17vh;
+  background-color: rgb(65, 65, 65);
+  width: 100%;
+  height: 17vh;
 }
 
 nav ul {
-    list-style: none;
-    font-size: 20px;
-    font-weight: bold;
-    text-align: center;
+  list-style: none;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
 }
 
 nav li {
-    display: inline-block;
-    margin: 70px;
+  display: inline-block;
+  margin: 70px;
 }
 
 nav a {
-    color: rgb(255, 255, 255);
-    text-transform: uppercase;
-    text-decoration: none;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  text-decoration: none;
 }
 
 .nav1 {
-    float: left;
+  float: left;
 }
 
 .nav2 {
-    float: right;
+  float: right;
 }
 
 h1 {
-    background-color: rgb(248, 106, 106);
-    color: rgb(0, 0, 0);
-    text-align: center;
-    margin: auto;
-    padding: 3vh;
-
+  background-color: rgb(248, 106, 106);
+  color: rgb(0, 0, 0);
+  text-align: center;
+  margin: auto;
+  padding: 3vh;
 }
 
 section {
-    height: 18%;
-    width: 75%;
-    background-color: rgb(65, 65, 65);
-    margin: auto;
-
-
+  height: 18%;
+  width: 75%;
+  background-color: rgb(65, 65, 65);
+  margin: auto;
+  margin-bottom: 3%;
+  margin-top: 3%;
 }
 
 .container li {
-    list-style: none;
-    height: 100%;
-    width: 20%;
-    background-color: rgb(248, 106, 106);
-
+  list-style: none;
+  height: 100%;
+  width: 20%;
+  background-color: rgb(248, 106, 106);
 }
 
 .li1 {
-    float: left;
-    margin-left: 10%;
-
+  float: left;
+  margin-left: 10%;
 }
 
 .li2 {
-    float: right;
-    margin-right: 10%;
-
+  float: right;
+  margin-right: 10%;
 }
 
-
 .sl {
-    font-weight: bolder;
-    font-size: 17.5px;
-    list-style: none;
-    text-align: center;
-
+  font-weight: bolder;
+  font-size: 17.5px;
+  list-style: none;
+  text-align: center;
 }
 
 .sli {
-    height: 200px;
-    width: 175px;
-    margin: 0 auto;
-    display: block;
+  height: 200px;
+  width: 175px;
+  margin: 0 auto;
+  display: block;
+}
 
+.container2 li {
+  list-style: none;
+  height: 100%;
+  width: 20%;
+  background-color: rgb(248, 106, 106);
 }
 
 .t {
-    color: black;
-    text-decoration: none;
+  color: black;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bolder;
 }
 
-
 footer {
-    height: 2vh;
-    background: rgb(65, 65, 65);
-    color: white;
-    text-align: center;
-    padding-bottom: 30px;
-    bottom: 0;
-    width: 100%;
-    position: fixed;
-    z-index: 1;
+  height: 2vh;
+  background: rgb(65, 65, 65);
+  color: white;
+  text-align: center;
+  padding-bottom: 30px;
+  bottom: 0;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
 }
